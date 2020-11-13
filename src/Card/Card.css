@@ -1,0 +1,24 @@
+.Card {
+    width: 200px;
+    min-width: 200px;
+    margin: 10px;
+    padding: 25px;
+    border: 1px solid #00f;
+    border-radius: 5px;
+    background-color: #55f;
+    position: relative;
+}
+
+.close {
+    position: absolute;
+    text-align: center;
+    top: 10px;
+    right: 10px;
+    width: 25px;
+    height: 25px;
+    color: red;
+    border: 1px solid #000;
+    border-radius: 50%;
+    background: none;
+    user-select: none;
+}
